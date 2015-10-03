@@ -19,10 +19,12 @@ our @section_data = (
     id    => 'tutorials',
     name  => 'Tutorials',
     pages => [qw/perlreftut perldsc perllol perlrequick
-                 perlretut perlboot perltoot perltooc perlbot
+                 perlretut perlboot perltoot perltooc perlbot perlootut
                  perlstyle perlcheat perltrap perldebtut
                  perlopentut perlpacktut perlthrtut perlothrtut
-                 perlxstut perlunitut perlpragma/]
+                 perlxstut perlunitut perlpragma
+                 perlpodstyle perlsource perlgit perlhacktips perlhacktut
+                 /]
   },
   {
     id        => 'faq',
@@ -39,18 +41,21 @@ our @section_data = (
                  perllexwarn perldebug perlvar perlre
                  perlreref perlrebackslash perlrecharclass perlref perlform perlobj perltie
                  perldbmfilter perlipc perlfork perlnumber
-                 perlperf perlport perllocale perluniintro perlunicode perluniprops
+                 perlperf perlport perllocale perluniintro perlunicode perluniprops perlunicook perlunifaq
                  perlebcdic perlsec perlmod perlmodlib
                  perlmodstyle perlmodinstall perlnewmod
                  perlcompile perlfilter perlglossary CORE
+                 perlexperiment
                  /]
   },
   {
     id    => 'internals',
     name  => 'Internals and C language interface',
-    pages => [qw/perlembed perldebguts perlxs perlxstut perlrepository
+    pages => [qw/perldtrace perlembed perldebguts perlxs perlxstut perlrepository
                  perlclib perlguts perlcall perlapi perlintern perlmroapi
-                 perliol perlapio perlhack perlreguts perlreapi perlpolicy/]
+                 perliol perlapio perlhack perlreguts perlreapi perlpolicy
+                 perlinterp  perlxstypemap
+            /]
   },
   { 
     id        => 'history',
@@ -71,12 +76,12 @@ our @section_data = (
   {
     id    => 'platforms',
     name  => 'Platform specific',
-    pages => [qw/perlaix perlamiga perlapollo perlbeos perlbs2000
+    pages => [qw/perlaix perlamiga perlandroid perlapollo perlbeos perlbs2000
                  perlce perlcygwin perldgux perldos perlepoc
                  perlfreebsd perlhaiku perlhpux perlhurd perlirix perllinux
                  perlmachten perlmacos perlmacosx perlmint perlmpeix
                  perlnetware perlopenbsd perlos2 perlos390 perlos400
-                 perlplan9 perlqnx perlriscos perlsolaris perlsymbian perltru64 perluts
+                 perlplan9 perlqnx perlriscos perlsolaris perlsymbian perlsynology perltru64 perluts
                  perlvmesa perlvms perlvos perlwin32/]
   },
   { 
